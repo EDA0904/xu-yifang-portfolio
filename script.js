@@ -21,15 +21,16 @@ if (menuButton && nav) {
   });
 }
 
-document.querySelectorAll('.material-toggle').forEach(button => {
-  button.addEventListener('click', () => {
-    const answer = button.nextElementSibling;
-    const expanded = button.getAttribute('aria-expanded') === 'true';
-    button.setAttribute('aria-expanded', String(!expanded));
-    answer.hidden = expanded;
-    button.querySelector('strong').textContent = expanded ? '點我揭曉' : '原來是這個';
+const videoLaunch = document.querySelector('.video-launch');
+const videoPlayer = document.querySelector('.video-player');
+
+if (videoLaunch && videoPlayer) {
+  videoLaunch.addEventListener('click', () => {
+    videoLaunch.hidden = true;
+    videoPlayer.classList.add('is-playing');
+    videoPlayer.play().catch(() => {});
   });
-});
+}
 
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 const reveals = document.querySelectorAll('.reveal');

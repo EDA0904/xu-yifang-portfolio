@@ -12,7 +12,7 @@
   <a class="skip-link" href="#main">跳到主要內容</a>
 
   <header class="site-header" id="top">
-    <a class="brand" href="#top" aria-label="回到首頁">許禕芳 <span>HSU YI-FANG</span></a>
+    <a class="brand" href="#top" aria-label="回到首頁"><span class="brand-name">許禕芳</span><span class="brand-roman">HSU YI-FANG</span></a>
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">MENU</button>
     <nav id="site-nav" aria-label="主要導覽">
       <a href="#about">關於我</a>
@@ -26,20 +26,16 @@
     <section class="hero section-shell">
       <div class="hero-copy reveal">
         <p class="eyebrow">FOOD BACKGROUND × CURIOUS MIND × IDEA-DRIVEN</p>
+        <p class="hero-name">許禕芳 <span>HSU YI-FANG</span></p>
         <h1>手上很務實，<br><em>腦袋有點奇怪。</em></h1>
         <p class="hero-lead">我是許禕芳。餐旅與烘焙管理系畢業，工作經驗都在餐飲現場。我的強項不是把自己塞進某一種專業標籤，而是對很多事情都想碰一點，然後在其中找到新的聯想、材料和做法。</p>
         <div class="hero-actions">
           <a class="btn primary" href="#works">看看我怎麼想</a>
-          <a class="btn ghost" href="assets/resume-general.pdf" target="_blank" rel="noopener">下載通用履歷</a>
         </div>
       </div>
-      <div class="hero-object reveal" aria-hidden="true">
-        <div class="orbit orbit-a"></div>
-        <div class="orbit orbit-b"></div>
-        <div class="idea-card card-1">水槽過濾網 → 蛇鱗</div>
-        <div class="idea-card card-2">剩下的石膏 → 臉</div>
-        <div class="idea-card card-3">漫畫 → 再加 BGM</div>
-        <div class="spark">?</div>
+      <div class="hero-portrait reveal">
+        <img src="assets/profile.jpg" alt="許禕芳的個人肖像" fetchpriority="high">
+        <p>餐飲現場 × 跨域好奇</p>
       </div>
     </section>
 
@@ -73,19 +69,20 @@
             <p class="project-kicker">「最好讓人想不出材料是什麼。」</p>
             <p>課堂要求找一張素材圖片，利用不同材料模仿它的質感。我選了蛇鱗，但不想直接用「本來就像鱗片」的材料。</p>
             <p>最後我想到的是水槽過濾網。網目的重複結構很像放大的蛇鱗，再搭配石膏、水彩與金粉，讓日常消耗品變成有機表皮。</p>
-            <button class="material-toggle" type="button" aria-expanded="false" aria-controls="snake-material-answer"><span>猜猜看主要材料</span><strong>點我揭曉</strong></button>
-            <div class="material-answer" id="snake-material-answer" aria-live="polite" hidden>水槽過濾網 + 石膏 + 水彩 + 金粉</div>
           </div>
-          <div class="project-gallery reveal">
-            <figure><img src="assets/snake-reference.jpg" alt="蛇鱗素材參考圖" loading="lazy"><figcaption>素材參考</figcaption></figure>
-            <figure><img src="assets/snake-v1.jpg" alt="蛇鱗材質實驗第一版" loading="lazy"><figcaption>第一版：先追求像不像</figcaption></figure>
-            <figure class="wide"><img src="assets/snake-v2.jpg" alt="蛇鱗材質實驗第二版" loading="lazy"><figcaption>第二版：保留網格，讓材質本身說話</figcaption></figure>
+          <div class="snake-panel reveal">
+            <div class="project-gallery snake-gallery">
+              <figure><img src="assets/snake-reference.jpg" alt="蛇鱗素材參考圖" loading="lazy"><figcaption>素材參考</figcaption></figure>
+              <figure><img src="assets/snake-v1.jpg" alt="蛇鱗材質實驗第一版" loading="lazy"><figcaption>第一版：先追求像不像</figcaption></figure>
+              <figure><img src="assets/snake-v2.jpg" alt="蛇鱗材質實驗第二版，保留網格與藍金對比" loading="lazy"><figcaption>第二版：保留網格與藍金對比</figcaption></figure>
+            </div>
+            <p class="material-note"><span>主要材料</span> 水槽過濾網、石膏、水彩、金粉</p>
           </div>
         </div>
       </article>
 
       <article class="project project-red">
-        <div class="section-shell project-grid reverse">
+        <div class="section-shell project-grid">
           <div class="project-copy reveal">
             <p class="project-no">WORK 02</p>
             <h3>提線木偶立體創作</h3>
@@ -95,7 +92,7 @@
             <blockquote>先有想法，再找材料、工具和做法，把它變成可以被看見的樣子。</blockquote>
           </div>
           <div class="project-gallery puppet-gallery reveal">
-            <figure><img src="assets/puppet-inspiration.jpg" alt="提線木偶作品靈感參考" loading="lazy"><figcaption>氣氛／構圖靈感</figcaption></figure>
+            <figure class="puppet-inspiration"><img src="assets/puppet-inspiration.jpg" alt="提線木偶作品靈感參考，畫面上方可見操控木偶的手" loading="lazy"><figcaption>氣氛／構圖靈感</figcaption></figure>
             <figure><img src="assets/puppet-photo-reference.jpg" alt="真人提線木偶姿勢參考" loading="lazy"><figcaption>真人姿勢參考</figcaption></figure>
             <figure><img src="assets/puppet-ai-reference.jpg" alt="經數位工具轉換後的人偶圖像" loading="lazy"><figcaption>轉換成可描繪的圖像</figcaption></figure>
             <figure><img src="assets/puppet-final.jpg" alt="提線木偶立體創作完成作品" loading="lazy"><figcaption>完成作品</figcaption></figure>
@@ -113,14 +110,16 @@
             <p>漫畫完成後，我另外加入自己挑選的 BGM，做成有時間推進的版本。對我來說，聲音不是裝飾，而是能改變停留、節奏與情緒的另一個敘事工具。</p>
             <p class="taste-note"><span>我偏好的氣氛：</span> 懸疑、未知、失控感，以及「熟悉的東西突然不太對勁」。</p>
           </div>
-          <div class="comic-wrap reveal">
-            <img class="comic-cover" src="assets/comic-cover.png" alt="漫畫彗界封面" loading="lazy">
+          <div class="video-panel reveal">
             <div class="video-card">
-              <video controls preload="metadata" poster="assets/comic-video-poster.jpg">
+              <button class="video-launch" type="button" aria-controls="comic-bgm-video">
+                <img src="assets/comic-video-poster.jpg" alt="《彗界》BGM 版本影片封面" loading="lazy">
+                <span>點擊播放《彗界》BGM 版本</span>
+              </button>
+              <video class="video-player" id="comic-bgm-video" controls preload="none" poster="assets/comic-video-poster.jpg">
                 <source src="assets/comic-bgm.mp4" type="video/mp4">
                 你的瀏覽器無法播放此影片。
               </video>
-              <p>《彗界》BGM 版本</p>
             </div>
             <details>
               <summary>查看漫畫內容縮圖</summary>
@@ -137,10 +136,6 @@
         <div class="reveal">
           <h2>能想，也能做現場。</h2>
           <p>創意是我想帶來的加分，但我真正有工作經驗的地方仍然是餐飲現場。這讓我習慣在忙碌時保持順序、清潔、協作與收尾。</p>
-          <div class="resume-links">
-            <a class="btn primary" href="assets/resume-general.pdf" target="_blank" rel="noopener">通用履歷 PDF</a>
-            <a class="btn ghost" href="assets/resume-swell-flow.pdf" target="_blank" rel="noopener">水凸申請履歷 PDF</a>
-          </div>
         </div>
         <div class="timeline reveal">
           <div class="timeline-item">
