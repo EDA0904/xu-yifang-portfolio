@@ -23,5 +23,5 @@ python -m http.server 8000
 ## 檔案
 - `index.html`：頁面內容
 - `styles.css`：視覺樣式
-- `script.js`：手機選單、材料揭曉、捲動動畫
+- `script.js`：手機選單與《彗界》影片彈窗
 - `assets/`：作品圖片、影片

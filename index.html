@@ -1,12 +1,12 @@
 <!doctype html>
 <html lang="zh-Hant">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="許禕芳的個人網站：餐飲背景、跨域課程作品與一個總是想多試一點的腦袋。" />
-  <meta name="theme-color" content="#102d4d" />
-  <title>許禕芳｜手上很務實，腦袋有點奇怪</title>
-  <link rel="stylesheet" href="styles.css?v=20260904-2" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="許禕芳的個人網站：餐飲現場經驗、跨域課堂作品與好奇心。">
+  <meta name="theme-color" content="#F3F0E9">
+  <title>許禕芳｜個人網站</title>
+  <link rel="stylesheet" href="styles.css?v=20260904-3">
 </head>
 <body>
   <a class="skip-link" href="#main">跳到主要內容</a>
@@ -15,174 +15,143 @@
     <a class="brand" href="#top" aria-label="回到首頁"><span class="brand-name">許禕芳</span><span class="brand-roman">HSU YI-FANG</span></a>
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">MENU</button>
     <nav id="site-nav" aria-label="主要導覽">
-      <a href="#about">關於我</a>
-      <a href="#works">跨域作品</a>
-      <a href="#experience">經歷</a>
-      <a href="#contact">聯絡</a>
+      <a href="#about">關於我</a><a href="#works">作品</a><a href="#experience">經歷</a><a href="#contact">聯絡</a>
     </nav>
   </header>
 
   <main id="main">
     <section class="hero section-shell">
-      <div class="hero-copy reveal">
-        <p class="eyebrow">FOOD BACKGROUND × CURIOUS MIND × IDEA-DRIVEN</p>
-        <p class="hero-name">許禕芳 <span>HSU YI-FANG</span></p>
-        <h1>手上很務實，<br><em>腦袋有點奇怪。</em></h1>
-        <p class="hero-lead">我是許禕芳。餐旅與烘焙管理系畢業，工作經驗都在餐飲現場。我的強項不是把自己塞進某一種專業標籤，而是對很多事情都想碰一點，然後在其中找到新的聯想、材料和做法。</p>
-        <div class="hero-actions">
-          <a class="btn primary" href="#works">看看我怎麼想</a>
-        </div>
+      <div class="hero-copy">
+        <p class="eyebrow">PERSONAL PROFILE</p>
+        <p class="hero-name">許禕芳</p>
+        <p class="hero-roman">HSU YI-FANG</p>
+        <h1>手上很務實，<br><span>腦袋有點奇怪。</span></h1>
+        <p class="hero-lead">餐旅與烘焙背景。喜歡接觸不同東西，也習慣在遇到不會的事情時自己找方法。</p>
       </div>
-      <div class="hero-portrait reveal">
+      <figure class="hero-portrait">
         <img src="assets/profile.jpg" alt="許禕芳的個人肖像" fetchpriority="high">
-        <p>餐飲現場 × 跨域好奇</p>
-      </div>
+        <figcaption>餐飲現場 × 跨域好奇</figcaption>
+      </figure>
     </section>
 
     <section id="about" class="about section-shell section-pad">
-      <div class="section-label reveal">01 / ABOUT</div>
+      <p class="section-label">01 / ABOUT</p>
       <div class="about-grid">
-        <h2 class="reveal">我不是想成為<br>「藝術創作者」。</h2>
-        <div class="about-copy reveal">
-          <p>我比較像是什麼都想接觸一點的人。看到陌生的材料、課程、工具或故事形式，我會想知道「如果換個方法，它還能變成什麼？」</p>
-          <p>我知道自己真正比較有自信的地方在<strong>靈感、聯想和找方法</strong>。技術不一定一開始就會，但我會先把目標想清楚，再去找合適的工具、材料或替代方案，把腦中的畫面做出來。</p>
-          <p>餐飲工作則給了我另一個很實際的底盤：現場節奏、清潔整理、分工協作、同時處理多件事情，以及把事情好好收尾。</p>
+        <h2>我不急著決定自己<br>只能是什麼。</h2>
+        <div class="about-copy">
+          <p>我比較像是什麼都想接觸一點的人。餐飲是我真正受過訓練、也實際工作過的領域；遇到其他有趣的東西，我也會想試試看。</p>
+          <p>我不一定每樣都擅長，但很喜歡從不同地方找方法，把腦中的想法真的做出來。我覺得自己比較突出的地方，不是某一種固定技法，而是靈感、聯想，還有把原本沒有關係的東西接在一起。</p>
+          <p>如果一件事讓我好奇，我通常會先靠近一點看看。</p>
         </div>
       </div>
-      <div class="trait-strip reveal" aria-label="個人特質">
-        <span>好奇心</span><span>靈感聯想</span><span>自主找解法</span><span>現場執行</span><span>願意多試一步</span>
-      </div>
+
+      <ul class="trait-grid" aria-label="個人特質">
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M15.5 8.5 13 11l-2 2.5-2.5 2.5"></path><path d="m10 14 1.5 1.5"></path></svg><span>好奇心</span></li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3-1.4 4.6L6 9l4.6 1.4L12 15l1.4-4.6L18 9l-4.6-1.4L12 3Z"></path><path d="m19 15-.7 2.3L16 18l2.3.7L19 21l.7-2.3L22 18l-2.3-.7L19 15Z"></path></svg><span>靈感聯想</span></li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5.3 5.3L3.5 17.5l3 3 5.9-5.9a4 4 0 0 0 5.3-5.3L15 12l-3-3 2.7-2.7Z"></path></svg><span>自主找解法</span></li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="m8 12 2.5 2.5L16 9"></path></svg><span>現場執行</span></li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5v14"></path><path d="M5 9h8"></path><path d="M15 17h4"></path><path d="M17 15v4"></path></svg><span>願意多試一步</span></li>
+      </ul>
     </section>
 
     <section id="works" class="works section-pad">
       <div class="section-shell works-head">
-        <div class="section-label reveal">02 / CROSS-DISCIPLINARY WORKS</div>
-        <h2 class="reveal">三件課堂作品，<br>三種「多想一步」。</h2>
-        <p class="reveal">這些作品不是要證明我是藝術家，而是讓人看見我碰到題目時，會怎麼聯想、拆解，再找方法完成。</p>
+        <p class="section-label">02 / COURSE WORKS</p>
+        <h2>三件課堂作品，<br>留下不同的做法。</h2>
+        <p>從材料實驗、立體創作到漫畫配樂，保留題目、過程與後來多加上的那一層。</p>
       </div>
 
-      <article class="project project-blue">
+      <article class="project">
         <div class="section-shell project-grid">
-          <div class="project-copy reveal">
+          <div class="project-copy">
             <p class="project-no">WORK 01</p>
             <h3>蛇鱗材質實驗</h3>
             <p class="project-kicker">「最好讓人想不出材料是什麼。」</p>
-            <p>課堂要求找一張素材圖片，利用不同材料模仿它的質感。我選了蛇鱗，但不想直接用「本來就像鱗片」的材料。</p>
-            <p>最後我想到的是水槽過濾網。網目的重複結構很像放大的蛇鱗，再搭配石膏、水彩與金粉，讓日常消耗品變成有機表皮。</p>
+            <p>課堂要求找一張素材圖片，再用不同材料模仿它的質感。我選了蛇鱗，但不想直接用本來就像鱗片的材料。</p>
+            <p>第一版先追求像不像；第二版把網格留下來，再加上水彩和金粉，讓它變成另一種表皮。</p>
           </div>
-          <div class="snake-panel reveal">
-            <div class="project-gallery snake-gallery">
+          <div class="snake-panel">
+            <div class="project-gallery focus-gallery snake-gallery">
               <figure><img src="assets/snake-reference.jpg" alt="蛇鱗素材參考圖" loading="lazy"><figcaption>素材參考</figcaption></figure>
-              <figure><img src="assets/snake-v1.jpg" alt="蛇鱗材質實驗第一版" loading="lazy"><figcaption>第一版：先追求像不像</figcaption></figure>
-              <figure><img src="assets/snake-v2.jpg" alt="蛇鱗材質實驗第二版，保留網格與藍金對比" loading="lazy"><figcaption>第二版：保留網格與藍金對比</figcaption></figure>
+              <figure><img src="assets/snake-v1.jpg" alt="蛇鱗材質實驗第一版" loading="lazy"><figcaption>第一版</figcaption></figure>
+              <figure><img src="assets/snake-v2.jpg" alt="蛇鱗材質實驗第二版，保留網格與藍金對比" loading="lazy"><figcaption>第二版</figcaption></figure>
             </div>
-            <p class="material-note"><span>主要材料</span> 水槽過濾網、石膏、水彩、金粉</p>
+            <details class="material-reveal"><summary>猜猜看主要材料</summary><p><strong>原來是水槽過濾網。</strong> 石膏、水彩、金粉。</p></details>
           </div>
         </div>
       </article>
 
-      <article class="project project-red">
-        <div class="section-shell project-grid">
-          <div class="project-copy reveal">
+      <article class="project">
+        <div class="section-shell project-grid puppet-project-grid">
+          <div class="project-copy">
             <p class="project-no">WORK 02</p>
             <h3>提線木偶立體創作</h3>
-            <p class="project-kicker">我不擅長畫畫，但我會自己找路。</p>
-            <p>題目只有兩個條件：自己發想，而且不能只是平面。我想做一個帶有舞台、操控與不安感的提線木偶場景。</p>
-            <p>手繪不是我的強項，所以我先用數位與 AI 工具把真人參考轉成較適合描繪的圖像，再列印、描線、拼貼與組裝。白色的臉則直接沿用上一件作業剩下的石膏。</p>
-            <blockquote>先有想法，再找材料、工具和做法，把它變成可以被看見的樣子。</blockquote>
+            <p class="project-kicker">從構圖開始，再慢慢把它做出來。</p>
+            <p>題目只有兩個條件：自己發想，而且不能只是平面。我想做一個有舞台、操控感和一點不安的提線木偶場景。</p>
+            <p>我先把真人參考轉成較適合描繪的圖像，再列印、描線、拼貼與組裝；白色的臉則沿用上一件作業剩下的石膏。</p>
           </div>
-          <div class="project-gallery puppet-gallery reveal">
-            <figure class="puppet-inspiration"><img src="assets/puppet-inspiration.jpg" alt="提線木偶作品靈感參考，畫面上方可見操控木偶的手" loading="lazy"><figcaption>氣氛／構圖靈感</figcaption></figure>
-            <figure><img src="assets/puppet-photo-reference.jpg" alt="真人提線木偶姿勢參考" loading="lazy"><figcaption>真人姿勢參考</figcaption></figure>
-            <figure><img src="assets/puppet-ai-reference.jpg" alt="經數位工具轉換後的人偶圖像" loading="lazy"><figcaption>轉換成可描繪的圖像</figcaption></figure>
-            <figure><img src="assets/puppet-final.jpg" alt="提線木偶立體創作完成作品" loading="lazy"><figcaption>完成作品</figcaption></figure>
+          <div class="puppet-layout focus-gallery">
+            <figure class="puppet-final"><img src="assets/puppet-final.jpg" alt="提線木偶立體創作完成作品" loading="lazy"><figcaption>完成作品</figcaption></figure>
+            <div class="puppet-process">
+              <figure class="puppet-inspiration"><img src="assets/puppet-inspiration.jpg" alt="提線木偶作品靈感參考：手、提線與舞台構圖" loading="lazy"><figcaption>氣氛／構圖靈感</figcaption></figure>
+              <figure class="puppet-ai"><img src="assets/puppet-ai-reference.jpg" alt="經數位工具轉換後的人偶圖像" loading="lazy"><figcaption>轉換成可描繪的圖像</figcaption></figure>
+              <figure class="puppet-photo"><img src="assets/puppet-photo-reference.jpg" alt="真人提線木偶姿勢參考" loading="lazy"><figcaption>真人姿勢參考</figcaption></figure>
+            </div>
           </div>
         </div>
       </article>
 
-      <article class="project project-night">
-        <div class="section-shell project-grid">
-          <div class="project-copy reveal">
+      <article class="project comic-project">
+        <div class="section-shell project-grid comic-grid">
+          <div class="project-copy">
             <p class="project-no">WORK 03</p>
-            <h3>《彗界》漫畫 × BGM</h3>
-            <p class="project-kicker">老師沒規定配樂，是我自己覺得「還少一點」。</p>
-            <p>靈感來自電影《彗星來的那一夜》。我喜歡熟悉世界突然裂開、角色開始無法確定自己身處哪個現實的感覺，因此把平行世界、死亡與錯位感放進自己的故事。</p>
-            <p>漫畫完成後，我另外加入自己挑選的 BGM，做成有時間推進的版本。對我來說，聲音不是裝飾，而是能改變停留、節奏與情緒的另一個敘事工具。</p>
-            <p class="taste-note"><span>我偏好的氣氛：</span> 懸疑、未知、失控感，以及「熟悉的東西突然不太對勁」。</p>
+            <h3>《彗界》<br>漫畫 × BGM</h3>
+            <p>靈感來自電影《彗星來的那一夜》。我把平行世界、死亡和錯位感放進自己的故事。</p>
+            <p>老師原本沒有要求配樂。漫畫完成後，我覺得只看畫面還少了一點情緒和節奏，所以另外加入 BGM，做成有時間推進的版本。</p>
           </div>
-          <div class="video-panel reveal">
-            <div class="video-card">
-              <button class="video-launch" type="button" aria-controls="comic-bgm-video">
-                <img src="assets/comic-video-poster.jpg" alt="《彗界》BGM 版本影片封面" loading="lazy">
-                <span>點擊播放《彗界》BGM 版本</span>
-              </button>
-              <video class="video-player" id="comic-bgm-video" controls preload="none" poster="assets/comic-video-poster.jpg">
-                <source src="assets/comic-bgm.mp4" type="video/mp4">
-                你的瀏覽器無法播放此影片。
-              </video>
-            </div>
-            <details>
-              <summary>查看漫畫內容縮圖</summary>
-              <img src="assets/comic-pages.jpg" alt="漫畫彗界內容縮圖" loading="lazy">
-            </details>
+          <div class="comic-panel">
+            <button class="comic-launch" type="button" aria-haspopup="dialog" aria-controls="comic-video-modal" aria-label="播放《彗界》漫畫 BGM 影片">
+              <img src="assets/comic-cover.png" alt="《彗界》漫畫封面" loading="lazy">
+              <span class="play-mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m9 7 8 5-8 5V7Z"></path></svg></span>
+            </button>
           </div>
         </div>
       </article>
     </section>
 
     <section id="experience" class="experience section-shell section-pad">
-      <div class="section-label reveal">03 / EXPERIENCE & SKILLS</div>
+      <p class="section-label">03 / EXPERIENCE</p>
       <div class="exp-grid">
-        <div class="reveal">
-          <h2>能想，也能做現場。</h2>
-          <p>創意是我想帶來的加分，但我真正有工作經驗的地方仍然是餐飲現場。這讓我習慣在忙碌時保持順序、清潔、協作與收尾。</p>
-        </div>
-        <div class="timeline reveal">
-          <div class="timeline-item">
-            <p class="time">2025.02 — 2026.05</p>
-            <h3>食趣國際有限公司｜內場 PT</h3>
-            <p>餐前備料、醬料調製、前菜／炸物／主食製作、擺盤出餐、餐具確認與外場協調。熟悉尖峰時段多工、工作區整理與收尾。</p>
-          </div>
-          <div class="timeline-item">
-            <p class="time">2021.09 — 2025.06</p>
-            <h3>樹德科技大學｜餐旅與烘焙管理系</h3>
-            <p>主修餐旅與烘焙相關專業；大學期間主動選修外系創作課程，接觸材質實驗、立體作品與漫畫創作。</p>
-          </div>
+        <div><h2>能想，也能做現場。</h2><p>餐飲是我真正有工作經驗的地方。忙起來的時候，備料、製作、整理、協作和收尾都要顧到。</p></div>
+        <div class="timeline">
+          <section class="timeline-item"><p class="time">2025.02 — 2026.05</p><h3>食趣國際有限公司｜內場 PT</h3><p>餐前備料、醬料調製、前菜／炸物／主食製作、擺盤出餐、餐具確認與外場協調。</p></section>
+          <section class="timeline-item"><p class="time">2021.09 — 2025.06</p><h3>樹德科技大學｜餐旅與烘焙管理系</h3><p>主修餐旅與烘焙相關專業；大學期間選修外系創作課程，接觸材質實驗、立體作品與漫畫創作。</p></section>
         </div>
       </div>
-
-      <div class="skill-grid reveal">
-        <div><span>01</span><h3>現場執行</h3><p>備料、整理、清潔、協作，依現場狀況調整工作順序。</p></div>
-        <div><span>02</span><h3>餐飲基礎</h3><p>中餐、烘焙、飲料調製相關訓練與丙級證照。</p></div>
-        <div><span>03</span><h3>靈感聯想</h3><p>從日常材料與既有元素中，快速找到新的用途與組合。</p></div>
-        <div><span>04</span><h3>自主解題</h3><p>遇到不熟悉的方法時，會找替代工具、參考或流程讓目標落地。</p></div>
-      </div>
-    </section>
-
-    <section class="statement section-pad">
-      <div class="section-shell reveal">
-        <p>我不急著決定自己「只能是什麼」。</p>
-        <h2>如果一件事讓我好奇，<br>我會想先靠近一點看看。</h2>
+      <div class="work-notes" aria-label="餐飲工作內容">
+        <div><span>01</span><h3>備料與製作</h3><p>依照餐前準備與出餐節奏完成工作。</p></div>
+        <div><span>02</span><h3>整理與清潔</h3><p>維持工作區與餐具確認，做好收尾。</p></div>
+        <div><span>03</span><h3>現場協作</h3><p>在尖峰時段和內、外場保持配合。</p></div>
       </div>
     </section>
 
     <section id="contact" class="contact section-shell section-pad">
-      <div class="section-label reveal">04 / CONTACT</div>
-      <div class="contact-grid">
-        <h2 class="reveal">有新的東西可以接觸嗎？</h2>
-        <div class="reveal">
-          <p>如果你正在找一個願意動手、願意學、腦袋常常多繞一個彎的人，歡迎找我聊聊。</p>
-          <a class="mail-link" href="mailto:z3957290@gmail.com">z3957290@gmail.com</a>
-        </div>
-      </div>
+      <p class="section-label">04 / CONTACT</p>
+      <div class="contact-grid"><h2>有新的東西<br>可以接觸嗎？</h2><div><p>如果你正在找一個願意動手、願意學的人，歡迎找我聊聊。</p><a class="mail-link" href="mailto:z3957290@gmail.com">z3957290@gmail.com</a></div></div>
     </section>
   </main>
 
-  <footer class="site-footer section-shell">
-    <p>© <span id="year"></span> 許禕芳</p>
-    <a href="#top">BACK TO TOP ↑</a>
-  </footer>
+  <footer class="site-footer section-shell"><p>© <span id="year"></span> 許禕芳</p><a href="#top">BACK TO TOP ↑</a></footer>
 
-  <script src="script.js?v=20260904-2"></script>
+  <dialog class="video-modal" id="comic-video-modal" aria-labelledby="comic-video-title">
+    <div class="video-modal__inner">
+      <div class="video-modal__bar"><p id="comic-video-title">《彗界》漫畫 × BGM</p><button class="modal-close" type="button" aria-label="關閉影片">×</button></div>
+      <div class="video-modal__media">
+        <video id="comic-bgm-video" controls preload="metadata" playsinline poster="assets/comic-video-poster.jpg"><source src="assets/comic-bgm.mp4" type="video/mp4">你的瀏覽器無法播放此影片。</video>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="script.js?v=20260904-3"></script>
 </body>
 </html>
